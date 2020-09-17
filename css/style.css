@@ -1,0 +1,255 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* menu primary */
+.navbar-brand,.nav-link{
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* menu secundary */
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submenu{
+    font-size: 15px;
+    font-weight: normal;
+    color: #969292;
+}
+
+.small{
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* hero image */
+#hero{
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 600px;
+    color: #000;
+}
+
+.parraf{
+    font-weight: bold;
+}
+.content-center{
+    max-width: auto;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.btnshop{
+    font-size: 14px;
+    padding: 26px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: #F0CD47;
+    color: #FFF;
+    border:none;
+    font-weight: bold;
+}
+
+/* galley */
+
+.imgs{ 
+    width: 350px; 
+    margin: auto;
+
+}
+
+.member-container{
+    position: relative;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.member-details{
+    position: absolute;
+    color: #F2F2F2;
+    bottom: 0px;
+    left: 50px;
+    margin: 50px;
+}
+
+/*products*/
+
+.titleproducts{
+    text-align: center;
+}
+
+.msimg{
+    display: flex;
+    width: 200px;
+    margin: auto;
+}
+
+
+/* section 2 */
+
+.fondo{
+    width: 100%;
+}
+
+.inf-container{
+    position: relative;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.inf-details{
+    text-align: left;
+    position: absolute;
+    color: #FFF;
+    bottom: 0px;
+    left: 50px;
+    margin: 50px;
+}
+
+.inf2-container{
+    position: relative;
+    text-align: left;
+}
+
+.inf2-details{
+    position: absolute;
+    color: #FFF;
+    bottom: 200px;
+    left: 50px;   
+}
+/*footer*/
+.footer{
+    background-color: black;
+}
+
+.footertext{
+    text-align: center;
+    color: #F2F2F2;
+}
+
+
+/* Responsive */
+
+@media (max-width: 575.98px) {
+    .nav-primary{
+        display: none;
+    }
+    
+    .member-details{
+        left: 100px;   
+    }
+
+    .inf-details, .inf-details{
+        font-size: 15px;
+    }
+
+    .inf2-details{
+        color: #fff;
+        bottom: 50px;
+        left: 50px;   
+    }
+
+    .inf{
+        font-size: 20px;
+    }
+
+    .text-details{
+        left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .resposinve-div{
+        margin: auto;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .detalis-imgs{
+        display: block!important;
+    }
+
+    .imgs{
+        width: 100%;
+    }
+}
+    
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .inf2-details{
+        color: #fff;
+        bottom: 50px;
+        left: 50px;   
+    }
+    
+    .inf{
+        font-size: 12px;
+    }
+
+    .btn-light{
+        padding: 10px;
+        font-size: 10px;
+    }
+    
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    .imgs{
+        width: 100%;
+    }
+
+    .member-details{
+        top: 1px;
+        left: 30px;   
+    }
+
+    .text-details{
+        left: 10px;
+        right: 25px;
+        padding-bottom: 20px;
+    }
+
+    .text-shop{
+        font-size: 15px;
+    }
+    
+    .inf-details, .inf2-details{
+        font-size: 15px;
+    }
+
+    .inf{
+        font-size: 20px;
+    }
+
+    .inf2-details{
+        color: #fff;
+        bottom: 50px;
+        left: 50px;   
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .inf2-details{
+        color: #fff;
+        bottom: 50px;
+        left: 50px;   
+    }
+
+    
+ }
+
+@media (min-width: 1200px) {  }
