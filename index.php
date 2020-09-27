@@ -49,7 +49,6 @@
 </section>
 
 <!-- product -->
-
 <section id="product">
     <div class="container">
         <h2 class="titleproducts pb-5">Popular products</h2>
@@ -60,7 +59,8 @@
                     <p class="card-text">Travel Lock Tsa-Aproved Co..</p>
                     <div class="d-flex justify-content-center">
                         <small class="text-muted">$88.00 - $55.00</small>
-                    </div>
+                    </div><br>
+                    <a href="productos.php?id=1" class="form-control btn btn-success">Comprar</a>
                 </div>
             </div>
             <div class="col">
@@ -69,7 +69,8 @@
                     <p class="card-text">Travel Lock Tsa-Aproved Co..</p>
                     <div class="d-flex justify-content-center">
                         <small class="text-muted">$144.00 - $210.00</small>
-                    </div>
+                    </div><br>
+                    <a href="productos.php?id=2" class="form-control btn btn-success">Comprar</a>
                 </div>
             </div>
             <div class="col">
@@ -78,7 +79,8 @@
                     <p class="card-text">Travel Lock Tsa-Aproved Co..</p>
                     <div class="d-flex  justify-content-center">
                         <small class="text-muted">$88.00 - $66.00</small>
-                    </div>
+                    </div><br>
+                    <a href="productos.php?id=3" class="form-control btn btn-success">Comprar</a>
                 </div>
             </div>
             <div class="col">
@@ -87,7 +89,8 @@
                     <p class="card-text">Travel Lock Tsa-Aproved Co..</p>
                     <div class="d-flex justify-content-center">
                         <small class="text-muted">$35.00 - $36.00</small>
-                    </div>
+                    </div><br>
+                    <a href="productos.php?id=4" class="form-control btn btn-success">Comprar</a>
                 </div>
             </div>
         </div>
@@ -135,6 +138,7 @@
                     <div class="d-flex justify-content-center">
                         <small class="text-muted">$88.00 - $55.00</small>
                     </div>
+                    <p class="text-danger">PRODUCTO AGOTADO</p>
                 </div>
             </div>
             <div class="col">
@@ -144,6 +148,7 @@
                     <div class="d-flex justify-content-center">
                         <small class="text-muted">$144.00 - $210.00</small>
                     </div>
+                    <p class="text-danger">PRODUCTO AGOTADO</p>
                 </div>
             </div>
             <div class="col">
@@ -153,6 +158,7 @@
                     <div class="d-flex  justify-content-center">
                         <small class="text-muted">$88.00 - $66.00</small>
                     </div>
+                    <p class="text-danger">PRODUCTO AGOTADO</p>
                 </div>
             </div>
             <div class="col">
@@ -162,6 +168,7 @@
                     <div class="d-flex justify-content-center">
                         <small class="text-muted">$35.00 - $36.00</small>
                     </div>
+                    <p class="text-danger">PRODUCTO AGOTADO</p>
                 </div>
             </div>
         </div>

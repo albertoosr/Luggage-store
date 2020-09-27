@@ -22,9 +22,6 @@
     <nav class="navbar navbar-expand-lg nav-primary">
         <div class="container">
             <a class="navbar-brand" href="#">ORDER ONLINE OR CALL US (1800) 000 8800</a>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button> -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -55,31 +52,33 @@
     <!-- Navbar secundary -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand title" href="#">LUGGAGE STORE</a>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand title" href="index.php">LUGGAGE STORE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
-            </button> -->
-            <div class="mx-auto" id="navbarSupportedContent">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mx-auto">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link submenu" href="#">HOME</a>
+                        <a class="nav-link submenu" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link submenu" href="#">CATALOG</a>
+                        <a class="nav-link submenu" href="nosotros.php">NOSOTROS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link submenu" href="#">COLLECTIONS</a>
+                        <a class="nav-link submenu" href="productos.php">PRODUCTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link submenu" href="#">BLOG</a>
+                        <a class="nav-link submenu" href="contacto.php">CONTACTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link submenu" href="#">SALE</a>
+                        <a class="nav-link submenu" href="#">REGISTRO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link submenu" href="#">CONTACT US</a>
+                        <a class="nav-link submenu" href="#">INICIO DE SESIÓN</a>
                     </li>
                 </ul>
+                </div>
             </div>
             <div class="mx-auto" id="navbarSupportedContent">
                 <ul class="nav justify-content-end">
